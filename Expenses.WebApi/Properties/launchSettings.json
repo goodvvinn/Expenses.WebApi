@@ -1,0 +1,37 @@
+﻿{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:11248",
+      "sslPort": 44315,
+      "JWT_SECRET": "This is my secret",
+      "JWT_ISSUER": "My Expenses"
+    }
+  },
+  "profiles": {
+    "Expenses.WebApi": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:5047",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT_SECRET": "This is my secret",
+        "JWT_ISSUER": "My Expenses",
+        "CLIENT_ID": "265325184185-jvqlhr9cg2n2001or63nf3ua3rh57p33.apps.googleusercontent.com"
+
+      }
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "JWT_SECRET": "This is my secret",
+        "JWT_ISSUER": "My Expenses",
+        "CLIENT_ID": "265325184185-jvqlhr9cg2n2001or63nf3ua3rh57p33.apps.googleusercontent.com"
+      }
+    }
+  }
+}
